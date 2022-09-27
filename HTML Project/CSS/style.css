@@ -1,0 +1,102 @@
+*{
+  margin:0;
+}
+body{
+  background-color: #7895B2;
+}
+.main-container{
+  margin: 50px 100px 50px 100px;
+  
+  background-color:#AEBDCA;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.Header{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    background-color: green;
+    background-image: url("D:/Computer Science Study/Web Development/HTML/HTML Project/Resources/background.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+}
+.nav{
+  display: flex;
+  height: 14%;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+}
+.nav a{
+  display: inline-block;
+  padding: 12px 30px 12px 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+.nav a:hover{
+  background-color: green;
+}
+img{
+  position: relative;
+  top:220px;
+  right: 50px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  z-index: 1;
+  border: solid white;
+  box-shadow: 10px 10px 30px;
+}
+.body{
+  padding: 120px 100px 100px 100px;
+}
+.body h1{
+  padding: 50px 0px 20px 0px;
+  font-size: 40px;
+}
+.body #intro{
+  font-size: 20px;
+  text-align: justify;
+}
+.edu{
+  width: 100%;
+  height: 400px;
+  background-color: #E8DFCA;
+  opacity: 0.7;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px;
+}
+.edu .education{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 20px 0px 20px;
+
+}
+.education h3{
+  font-size: 25px;
+}
+.education p{
+  font-size: 15px;
+}
+.dates{
+  font-weight: bold;
+}
+.skills{
+  width: 100%;
+  height: 400px;
+  background-color: #E8DFCA;
+  opacity: 0.7;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px;
+}
