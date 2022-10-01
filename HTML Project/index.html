@@ -8,7 +8,7 @@
 </head>
 
 <body>
-   <div class="main-container">
+   <div class="main-container" id="main-containerid">
          <section class="Header">
             <div class="image">
               <img src="D:\Computer Science Study\Web Development\HTML\HTML Project\Resources\back.jpg" alt="">
@@ -207,11 +207,11 @@
 
    <script>
        var a = document.getElementById('navi');
-
+       var b= document.getElementById('main-containerid');
        window.addEventListener('scroll',function (){
          if(window.pageYOffset > 360){
-           a.style="position: fixed; background-color:red; width:86.9%; height:50px;";
-
+           a.style="position: fixed; width:86.9%; height:50px;";
+           b.style="margin-top:0px;";
          }
          else{
            a.style="position: none";
