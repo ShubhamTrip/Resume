@@ -11,9 +11,9 @@
    <div class="main-container">
          <section class="Header">
             <div class="image">
-              <img src="HTML%20Project/Resources/back.jpg" alt="Shubham's Picture">
+              <img src="D:\Computer Science Study\Web Development\HTML\HTML Project\Resources\back.jpg" alt="">
             </div>
-            <div class="nav">
+            <div class="nav" id='navi'>
               <a href="#">Introduction</a>
               <a href="#educ">Education</a>
               <a href="#">Skills</a>
@@ -199,11 +199,25 @@
          </section>
          <section class='footer'>
            <div class="contact-section">
-              
+
            </div>
          </section>
 
    </div>
+
+   <script>
+       var a = document.getElementById('navi');
+
+       window.addEventListener('scroll',function (){
+         if(window.pageYOffset > 360){
+           a.style="position: fixed; background-color:red; width:86.9%; height:50px;";
+
+         }
+         else{
+           a.style="position: none";
+         }
+       });
+   </script>
 </body>
 
 </html>
